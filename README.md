@@ -88,10 +88,28 @@ water_pump_prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ---
 
-Technologies Used
+## API flow
+
+``` text
+Client
+   │
+   ▼
+FastAPI
+   │
+   ▼
+Prediction Pipeline
+   │
+   ▼
+Machine Learning Model
+   │
+   ▼
+Prediction Response
+
+```
+## Technologies Used
 
 * Python
 * FastAPI
@@ -104,7 +122,7 @@ Technologies Used
 
 ---
 
-Installation
+## Installation
 
 Clone the repository:
 
