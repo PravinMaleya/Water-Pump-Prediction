@@ -1,10 +1,10 @@
-# Tanzania Water Pump Status Prediction API
+## Tanzania Water Pump Status Prediction API
 
 A machine learning-powered REST API built with **FastAPI** that predicts the operational status of water pumps in Tanzania. The API serves predictions from a trained machine learning model through a simple REST interface, demonstrating an end-to-end machine learning deployment workflow.
 
 ---
 
-# Business Problem
+### Business Problem
 
 Access to clean and reliable water is essential for improving public health and supporting economic development. Across Tanzania, thousands of water pumps have been installed to provide communities with safe drinking water. However, many pumps eventually become non-functional due to mechanical failures, poor maintenance, environmental conditions, or resource constraints.
 
@@ -14,7 +14,7 @@ This project addresses that challenge by using machine learning to classify the 
 
 ---
 
-# Project Objectives
+## Project Objectives
 
 The objectives of this project are to:
 
@@ -26,7 +26,7 @@ The objectives of this project are to:
 
 ---
 
-# Dataset
+## Dataset
 
 The model was trained using historical water pump data containing demographic, geographical, operational, and management-related information.
 
@@ -49,7 +49,7 @@ The target variable is the operational status of each water pump.
 
 ---
 
-# Methodology
+## Methodology
 
 The project follows a typical machine learning deployment pipeline:
 
@@ -62,7 +62,7 @@ The project follows a typical machine learning deployment pipeline:
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 water_pump_prediction/
@@ -91,7 +91,7 @@ water_pump_prediction/
 
 ---
 
-# Technologies Used
+Technologies Used
 
 * Python
 * FastAPI
@@ -104,7 +104,7 @@ water_pump_prediction/
 
 ---
 
-# Installation
+Installation
 
 Clone the repository:
 
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 
 ---
 
-# Running the API
+## Running the API
 
 Start the FastAPI development server:
 
@@ -162,7 +162,7 @@ http://127.0.0.1:8000
 
 ---
 
-# API Documentation
+## API Documentation
 
 FastAPI automatically generates interactive API documentation.
 
@@ -180,9 +180,9 @@ http://127.0.0.1:8000/redoc
 
 ---
 
-# API Endpoints
+## API Endpoints
 
-## Home Endpoint
+### Home Endpoint
 
 **GET /**
 
@@ -198,7 +198,7 @@ Example response:
 
 ---
 
-## Prediction Endpoint
+### Prediction Endpoint
 
 **POST /predict**
 
@@ -214,7 +214,7 @@ Example response:
 
 ---
 
-# Results
+## Results
 
 The deployed API successfully serves predictions from the trained machine learning pipeline by:
 
@@ -226,7 +226,7 @@ The deployed API successfully serves predictions from the trained machine learni
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 Future enhancements for this project include:
 
@@ -241,7 +241,7 @@ Future enhancements for this project include:
 
 ---
 
-# Author
+## Author
 
 **Pravin Maleya**
 
