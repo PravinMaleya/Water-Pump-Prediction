@@ -127,7 +127,7 @@ Prediction Response
 Clone the repository:
 
 ```bash
-git clone <https://github.com/PravinMaleya/Water-Pump-Prediction>
+git clone https://github.com/PravinMaleya/Water-Pump-Prediction
 ```
 
 Navigate into the project directory:
